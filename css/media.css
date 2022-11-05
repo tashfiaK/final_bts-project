@@ -1,0 +1,154 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*--common*/
+    .c_padding {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    /*--banner--*/
+    .b_text {
+        margin-top: 40px;
+    }
+    .b_h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .c_lh {
+    }
+    .b_p {
+        margin-top: 12px;
+        margin-bottom: 14px;
+    }
+    .c_btn1 {
+        margin-right: 20px;
+        padding: 6px 20px;
+    }
+    .c_btn2 {
+        padding: 6px 18px;
+    }
+    .b_img {
+        width: 80%;
+    }
+     /*--service1--*/
+     .c_img {
+        width: 75%;
+     }
+
+    /*--service2--*/
+    .s2_text {
+        margin-top: 20px;
+    }
+    .s2_h1 {
+        font-size: 25px;
+        line-height: 30px ;
+    }
+    .s2_img {
+        width: 75%;
+    }
+    .cus_b {
+        margin-right: 0px;
+        padding: 5px 15px;
+    }
+    /*--vcare2--*/
+    .price {
+        font-size: 20px;
+        font-weight: 600;
+        word-spacing: 8px;
+        line-height: 25px;
+    }
+    .c_btnb {
+        margin-bottom: 100px;
+        padding: 5px 15px;
+    }
+    /*--vc_team--*/
+    .vt_h1 {
+        font-size: 38px;
+    }
+    .vt_p {
+        margin-bottom: 35px;
+    }
+    .f_input {
+        padding: 12px 20px;
+        height: 40px;
+    }
+    .f_submit {
+        height: 40px;
+        font-size: 18px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /*--banner--*/
+    .b_h1 {
+        font-size: 50px;
+    }
+    .b_text {
+        margin-top: 75px;
+    }
+    .b_img {
+        margin-top: 30px;
+        width: 75%;
+    }
+    /*--service2--*/
+    .vt_h1 {
+        font-size: 75px;
+    }
+    .s2_h1 {
+        font-size: 42px;
+    }
+    .s2_img {
+        width: 80%;
+    }
+    /*--footer--*/
+    .f_h2 {
+        font-size: 25px !important;
+    }
+ }
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1699.98px) { 
+    /*--banner--*/
+    .b_h1, .s2_h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .b_text {
+        margin-top: 75px;
+    }
+    .b_img {
+        margin-top: 30px;
+        width: 80%;
+    }
+    /*--service2--*/
+    .vt_h1 {
+        font-size: 75px;
+    }
+    .s2_img {
+        width: 80%;
+    }
+    /*--footer--*/
+    .f_h2 {
+        font-size: 25px !important;
+    }
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1700px) and (max-width: 1999.98px) { 
+
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 2000px) { 
+
+ }
