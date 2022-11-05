@@ -33,8 +33,8 @@ header {
     transition: .3s;
 }
 #nav_sc ul li a:hover {
-    background-color: #03a8b1;
-    /*transform: scale(.8);*/
+    color: #03a8b1;
+    border: none;
 }
 .c_button {
     width: 250px;
@@ -319,9 +319,16 @@ footer {
     text-transform: uppercase;
     transition: .3s;
 }
+.f_submit:hover {
+    background-color: #fcdb00 !important;
+}
 .f_icon {
     margin-top: 20px;
     font-size: 25px;
     word-spacing: 10px;
     color: #ffffff !important;
+}
+.f_icon:hover {
+    cursor: pointer;
+    color: #03a8b1 !important;
 }
